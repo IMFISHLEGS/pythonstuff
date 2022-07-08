@@ -45,7 +45,18 @@ fav_pizza = {
 }
 for key,value in fav_pizza.items():
 	print(key + " dosent like " + value + "pizza")
-	
+
+num = 0
+while (num <= 100):
+	if (num % 3 == 0) and (num % 5 == 0):
+		print (str(num) + ". fizzbuzz!")
+	elif (num % 3 == 0):
+		print (str(num) + ". fizz!")
+	elif (num % 5 == 0):
+		print (str(num) + ". buzz!")
+	else:
+		print(str(num) + '.')	
+	num +=1
 
 
 
