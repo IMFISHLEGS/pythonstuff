@@ -1,3 +1,4 @@
+
 print ("hello world!")
 
 full_name = "goodness man"
@@ -15,7 +16,7 @@ cake = "buzy guy"
 print (cake)
 money = "even if i cant see shit"
 print (money)
-dupe = "dupe has small bum bum"
+dupe = "somto has thin butts"
 print (dupe)
 greetings = 'my boss yelled "go fuck yourself"'
 print (greetings)
@@ -85,6 +86,15 @@ while (num <= 100):
 print("________________________")
 print("fizz\tbuzz\tfizzbuzz")
 print(str(fizzcount) + "\t" + str(buzzcount) + "\t" + str(fizzbuzzcount))
+
+def nameit(pizza):
+
+	print("i love " + pizza)
+
+nameit("pepperoni")	
+
+from naging import naging
+naging("i love pizza")
 
 
 
