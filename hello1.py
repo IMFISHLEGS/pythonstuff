@@ -1,30 +1,8 @@
 from tkinter import *
-
-
 root = Tk()
-root.title('DONT BE A DORK')
-root.geometry("400x600")
-def hello():
-	hello_label = Label(root, text="hello " + myTextbox.get())
-	hello_label.pack()
-
-myLabel = Label(root, text="Enter your first name!:")
+#creating a label widigt 
+myLabel = Label(root, text="Hello world!")
+#shoving it into the screen
 myLabel.pack()
 
-myTextbox = Entry(root, width=30)
-myTextbox.pack()
-
-myButton = Button(root, text="submit", command=hello)
-myButton.pack()
-
-
-
-
-
-
 root.mainloop()
-
-
-
-
-
