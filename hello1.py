@@ -1,8 +1,9 @@
 from tkinter import *
 root = Tk()
-#creating a label widigt 
-myLabel = Label(root, text="Hello world!")
-#shoving it into the screen
-myLabel.pack()
+ 
+myLabel1 = Label(root, text="Hello world!")
+myLabel2 = Label(root, text="my name is walker")
 
+myLabel1.grid(row=0, column=0)
+myLabel2.grid(row=1, column=0)
 root.mainloop()
